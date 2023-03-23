@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex2</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+  <h2>Information about a GitHub user</h2>
+  <form>
+    <input type="text" id="username" name="username" required>
+    <button type="button" onclick="getUserInfo()">Lookup</button>
+  </form>
+  <br>
+  <p><img id="avatar" src="" alt="User avatar" height="200" width="200"></p>
+  <table id="user-info">
+    <tr>
+      <th>Name</th>
+      <td id="name"></td>
+    </tr>
+    <tr>
+      <th>Blog</th>
+      <td id="blog"></td>
+    </tr>
+    <tr>
+      <th>Account Created</th>
+      <td id="created-at"></td>
+    </tr>
+  </table> 
+    <script src="../js/ex2.js" rel="text/javascript"></script>
+</body>
+
+</html>
